@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>Transition functions come in many forms.
+Each type of Turing machine interacts with them differently.
+
+Deterministic and Non-Deterministic Machines use five fields:
+
+A 0 1 r B
+
+This function says that when in state A, and a 0 is read from the tape, write a 1 and move right, and end in state B.
+
+Read-Only Machines use only four fields:
+
+A 0 r B
+
+This function says that when in stare A, and a 0 is read from the tape, move to the right and end in state B.
+Read-Only Machines do not write to their tapes.</value>
+  </data>
+  <data name="richTextBox1.Text" xml:space="preserve">
+    <value>Turing Machines are very basic computers. They were first coined in 1936 by Alan Turing.
+He used them as a thought experiment to explore the bounds of computation, and to prove that not everything can be computed.
+They have tapes, which store information.
+A read/write head passes over the tape. It is able to return the character being read on the tape and is also able to change the character at its current position. It is able to move one space at a time.
+Their operation is controlled by states, which have transition functions.
+
+The Turing machine reads what is currently being read by the read/write head on the tape,
+and performs the transition function that matches both the current state of the machine and
+what is being read by the tape.</value>
+  </data>
+  <data name="richTextBox4.Text" xml:space="preserve">
+    <value>The Default Case character is a tool that can be used by all Turing machine types.
+
+In the Write Key of a field, this character can be used to tell the machine to not change the contents of a tape.
+In the Move Key, they can be used as the 'fallback' command to use if there is no function that explicitly satisfies the conditions of the machine.
+For example:
+
+     A 0 1 r B
+     A * * _ h
+
+This set of instructions does not contain a definition for 1 in state A. Therefore, the machine can perform the default case function.
+This rule works for all machines that work with one tape, including the Multi-Tape Machine, which only considers one tape per transition function.
+
+Multi-Tapes use a priority system. The priority of a function depends on how many characters in its read key are defined characters and not the default case character.
+For example:
+
+     A 1** 101 rrr B
+     A *** 123 rrr B
+
+The first function has a higher priority than the second, as it has one defined character where the second has none. So, the line:
+
+     A 1*1 101 rrr B
+
+Would have a higher priority than our function with one defined character in.</value>
+  </data>
+  <data name="richTextBox5.Text" xml:space="preserve">
+    <value>A Multi-Tape Machine works slightly differently. 
+Each transition function will have 'k' different read, write, and move keys, where k is the number of tapes in the machine.
+
+For example, the transition function:
+
+A 010 101 r_l B
+
+Will be called in state A. When tape 1 reads a 0, tape 2 reads a 1, and tape 3 reads a 0, 1 will be written to tape 1, and the tape head will move one to the right, and so on for the remaining two tapes. The final state will be B.
+
+Multi-Track Machines also have more than one tape.
+Instead of working together, like Multi-Tapes, the tapes work independently. They use the same transition functions as Deterministic machines.
+</value>
+  </data>
+  <data name="richTextBox3.Text" xml:space="preserve">
+    <value>A Universal Turing Machine is one that takes another Turing Machine and places this on the tape to be read.
+This is a representation of a computer treating instructions as data, with a hard-coded instruction set to read and process those instructions.
+
+Only Deterministic and Read-Only Turing Machines can be used on the UTM in this program.
+
+The "Convert To Universal" in the "Machine" tab will produce a Universal Turing Machine from the DTM or RTM you have open.
+
+The Universal Machine has three tapes:
+     An Instruction Tape,
+     A State Tape,
+     A Data Tape.
+
+The Instruction Tape contains the instructions from the DTM, converted over to work in a UTM. Each state is a single, alphabetical character,
+and each instruction is separated from the other with a '|' character:
+
+      a01rb|b10ra
+
+Translates to the DTM Functions:
+
+     A 0 1 r B
+     B 1 0 r A
+
+The State Tape is a single character long. It stores the current state of the DTM being simulated by the UTM.
+
+The Data Tape contains the information being processed by the DTM.</value>
+  </data>
+</root>

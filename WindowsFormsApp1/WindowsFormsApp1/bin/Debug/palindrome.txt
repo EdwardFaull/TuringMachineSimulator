@@ -1,0 +1,21 @@
+0
+10100101
+0
+a
+a 1 i r a1
+a 0 o r a0
+a * * r a
+a _ _ _ accepthalt
+a1 * * r a1
+a1 _ _ l a1check
+a1check 1 i l acceptreset
+a1check * * l a1check
+a1check _ _ r rejecthalt
+a0 * * r a0
+a0 _ _ l a0check
+a0check 0 o l acceptreset
+a0check * * l a0check
+a0check _ _ r rejecthalt
+acceptreset * * l acceptreset
+acceptreset _ _ r a
+

@@ -1,0 +1,34 @@
+0
+1011~0110
+0
+set
+set 0 0 r set
+set 1 1 r set
+set ~ ~ r set
+set _ _ l check
+check 0 0 l check
+check 1 1 r accept
+check ~ ~ _ clean
+accept 0 0 r accept
+accept 1 1 r accept
+accept ~ ~ r accept
+accept _ _ l dc
+dc 0 1 l dc
+dc 1 0 _ gotofirst
+gotofirst 0 0 l gotofirst
+gotofirst 1 1 l gotofirst
+gotofirst ~ ~ l dc2
+dc2 0 1 l dc2
+dc2 1 0 r set
+dc2 _ _ r clean_r
+clean_r 0 _ r clean_r
+clean_r 1 _ r clean_r
+clean_r ~ _ r clean_r
+clean_r _ _ _ reject
+clean ~ _ r clean
+clean 0 _ r clean
+clean _ _ l end
+end _ _ l end
+end 0 0 _ halt
+end 1 1 _ halt
+

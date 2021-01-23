@@ -1,0 +1,11 @@
+1
+10101011110
+0
+a
+a 1 r b
+b 1 r a
+a 0 r a
+b 0 r b
+a _ _ even
+b _ _ odd
+
